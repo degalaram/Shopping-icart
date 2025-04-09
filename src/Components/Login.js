@@ -30,7 +30,7 @@ const Login = ({ setIsLoggedIn }) => {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            placeholder="abcemail@gmail.com"
+            placeholder="ram"
           />
           
           {/* Password Field with Toggle */}
@@ -39,7 +39,7 @@ const Login = ({ setIsLoggedIn }) => {
               type={showPassword ? "text" : "password"}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="********"
+              placeholder="12345"
             />
             <label className="switch">
               <input type="checkbox" checked={showPassword} onChange={() => setShowPassword(!showPassword)} />
